@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: white;
+}
+
+img {
+  max-width: 100%;
+}
+
+#logo {
+  float: left;
+}
+
+body {
+  @if $vista == desktop {
+    @media only screen and (min-width: 1024px) {
+      h1 {
+        font-size: $h1Desktop;
+      }
+    }
+  } @else if $vista == mobile {
+    @media only screen and (max-width: 767px) {
+      h1 {
+        font-size: $h1Mobile;
+        font-family: "Courier New", Courier, monospace;
+      }
+    }
+  } @else {
+    h1 {
+      font-size: 1rem;
+    }
+  }
+}

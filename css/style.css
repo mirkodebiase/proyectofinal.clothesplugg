@@ -1,0 +1,167 @@
+.imgbanner {
+  display: flex;
+}
+
+.section-image {
+  background-color: rgb(255, 255, 255);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.texto-destacado {
+  justify-content: center;
+  flex-direction: row;
+  text-align: center;
+  margin: 50px;
+}
+
+.container {
+  padding: 30px 0;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.novedades {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.textodenovedades {
+  display: flex;
+  margin-right: 5px;
+}
+
+.recibirnovedades {
+  margin: 5px;
+  margin-right: 5px;
+}
+
+.ediciones {
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: white;
+}
+
+img {
+  max-width: 100%;
+}
+
+#logo {
+  float: left;
+}
+
+@media only screen and (max-width: 767px) {
+  body h1 {
+    font-size: 1.2rem;
+    font-family: "Courier New", Courier, monospace;
+  }
+}
+
+.tituloshop {
+  background-color: black;
+}
+
+.containershop {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tempo23 {
+  background-color: black;
+}
+
+.margintempo {
+  margin: 20%;
+}
+
+.contador {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+th {
+  padding: 5px 25px 5px 20px;
+}
+
+td {
+  padding: 5px 25px 5px 20px;
+}
+
+.tituloshop {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+.containershop {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.productshop {
+  margin: 5% 20%;
+}
+
+.bcolor {
+  background-color: black;
+  color: white;
+}
+
+.margshop {
+  margin: 20px;
+}
+
+.vermas {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+.tituloshop {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+.containershop {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.productshop {
+  margin: 5% 20%;
+}
+
+.bcolor {
+  background-color: black;
+  color: white;
+}
+
+.margshop {
+  margin: 20px;
+}
+
+.vermas {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+/*# sourceMappingURL=style.css.map */
